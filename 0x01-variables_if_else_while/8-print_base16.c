@@ -12,7 +12,7 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 20; i < 30; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		putchar(i);
 	}

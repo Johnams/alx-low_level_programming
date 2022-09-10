@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description - Single numbers followed by a new line
+ * Description -prints single numbers of base 10 starting from 0:
  *
  * Return: Always 0 (success/correct)
  */
@@ -11,7 +11,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 20; i < 30; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		putchar(i);
 	}
