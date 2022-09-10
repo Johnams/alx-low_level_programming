@@ -3,18 +3,18 @@
 /**
  * main - Entry point
  *
- * Description - Possible combination of single-digit numbers
+ * Description - prints "0,1,2,3,4,5,6,7,8,9"
  *
  * Return: Always 0 (success/correct)
  */
 int main(void)
 {
-	int a;
+	int c;
 
-	for (a = 28; a <= 37; a++)
+	for (c = 48; c <= 57; c++)
 	{
-		putchar(a);
-		if (a != 37)
+		putchar(c);
+		if (c != 57)
 		{
 			putchar(',');
 			putchar(' ');
