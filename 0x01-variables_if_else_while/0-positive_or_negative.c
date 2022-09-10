@@ -1,8 +1,3 @@
-/*
- *File: 0-positive_or_negative.c
- *
- */
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -10,7 +5,7 @@
 /**
  * main- prints random number and states whether is negative, positive or zero.
  *
- * Returns: 0 always.
+ * Return: always 0 (success/correct).
  */
 int main(void)
 {
