@@ -2,18 +2,15 @@
 /**
  * main - Entry point
  *
- * print_alphabet_x10 - function to prints abc 10 times
+ * print_alphabet - prints the lowercase alphabets
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-	int i, x;
+	int i;
 
-	for (x = 0; x <= 9; x++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		for (i = 'a'; i <= 'z'; i++)
-		{
-			_putchar(i);
-		}
-		_putchar('\n');
+		_putchar(i);
 	}
+	_putchar('\n');
 }
