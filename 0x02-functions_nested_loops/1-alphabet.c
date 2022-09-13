@@ -4,7 +4,7 @@
  *
  * print_alphabet_x10 - function to prints abc 10 times
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int i, x;
 
