@@ -3,20 +3,17 @@
  * main - Entry point
  *
  * print_alphabet_x10 - function to prints abc 10 times
- *
- * Return: Always 0
  */
-void print_alphabet(void)
+void print_alphabet_x10(void);
 {
-	char i, j;
+	int i, x;
 
-	for (j = 0; j <= 9; j++)
+	for (x = 0; x <= 9; x++)
 	{
 		for (i = 'a'; i <= 'z'; i++)
 		{
 			_putchar(i);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
-	return (0);
 }
