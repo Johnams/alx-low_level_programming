@@ -3,15 +3,14 @@
 /**
  * print_last_digit - prints the last digit
  * @n: the passed args
- * Return: the last digit
+ * Return: Always 0
  */
 int print_last_digit(int n)
 {
-	int i;
+	n = n % 10;
 
 	if (n < 0)
 		n = -n;
-	i = n % 10;
-	_putchar(i + '0');
-	return (i);
+	_putchar(n + '0');
+	return (n);
 }
