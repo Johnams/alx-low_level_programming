@@ -1,4 +1,3 @@
-#include <string.h>
 #include "main.h"
 
 /**
@@ -7,16 +6,21 @@
  */
 void rev_string(char *s)
 {
-	int len = 0, i = 0;
 	char tmp;
+	int i, len1, len2;
 
-	while (s[i++])
-		len++;
+	len1 = 0;
+	len2 = 0;
 
-	for (i = len - 1; i >= len / 2; i++)
+	while (s[len1] != '\0')
+		len1++;
+
+	len2 = len1 - 1;
+	for (i = 0; i < len1 / 2; i++)
 	{
 		tmp = s[i];
-		s[i] = s[len - i - 1];
-		s[len - i - 1] = tmp;
+		s[i] = s[len2];
+		s[len2] = tmp;
+		len2 -= 1;
 	}
 }
