@@ -1,8 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * _puts - prints a string to stdout
  * @str: string to be printed
+ * on success: return no error
  */
 void _puts(char *str)
 {
@@ -10,8 +12,8 @@ void _puts(char *str)
 
 	while (*(str + i) != '\0')
 	{
-		_putchar(*(str + i));
+		putchar(*(str + i));
 		i++;
 	}
-	_putchar(10);
+	putchar(10);
 }
