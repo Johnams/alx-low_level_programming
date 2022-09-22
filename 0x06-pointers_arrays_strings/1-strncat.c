@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * _strncat - concatenates two strings
  * @src: sring to be completed at the end of @dest
@@ -10,13 +10,6 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0, dest_len = 0;
-
-	while (dest[i++])
-		dest++;
-
-	for (i = 0; src[i] && i < n; i++)
-		dest[dest_len++] = src[i];
-
+	strncat(dest, src, n);
 	return (dest);
 }
