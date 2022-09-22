@@ -12,8 +12,10 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int j = strcmp(s1, s2);
-
-	printf("This function returns: %d", j);
-	return (0);
+	while (s1 && s2 && s1 == s2)
+	{
+		s1++;
+		s2++;
+	}
+	return (s1 - s2);
 }
