@@ -20,7 +20,7 @@ char *leet(char *s)
 
 		while (b < l)
 		{
-			if (s[a] == tr[b] || s[a] - 32 == tr[b]
+			if (s[a] == tr[b] || s[a] - 32 == tr[b])
 				s[a] = trw[b];
 			b++;
 		}
