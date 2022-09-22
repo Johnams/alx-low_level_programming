@@ -14,6 +14,6 @@ int _strcmp(char *s1, char *s2)
 {
 	int j = strcmp(s1, s2);
 
-	_putchar("This function returns: %d", j);
+	printf("This function returns: %d", j);
 	return (0);
 }
