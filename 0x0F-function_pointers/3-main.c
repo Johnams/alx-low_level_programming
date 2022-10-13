@@ -26,7 +26,7 @@ int main(int argc, char **argv)
 
 	if (f == NULL)
 	{
-		print("Error\n");
+		printf("Error\n");
 		exit(98);
 	}
 	c = f(a, b);
